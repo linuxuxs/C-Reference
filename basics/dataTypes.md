@@ -75,7 +75,6 @@ x = 19; 	    //error at this line
 ```
 
 As you can see, the variable x is initialized<sup>1</sup> inside the scope block, and we assign<sup>2</sup> a new value outside the scope which it will give us an ERROR because its not declared<sup>3</sup>.   
-YOU CAN ONLY USE THAT VARIABLE INSIDE THAT SCOPE!	
 
 ---
 
