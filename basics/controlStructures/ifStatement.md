@@ -24,11 +24,11 @@ Example:
 	int x = 10;	
 	
 	if ( x < 0) {
-		s-t-d::cout << "The number is negative" << s-t-d::endl;	
+		std::cout << "The number is negative" << std::endl;	
 	} else if ( x > 0 ) {
-		s-t-d:: cout << "The number is positive" << s-t-d::endl;
+		std:: cout << "The number is positive" << std::endl;
 	} else {	
-		s-t-d::cout << "The number is 0." << s-t-d:: endl;	
+		std::cout << "The number is 0." << std:: endl;	
 	}
 
 
