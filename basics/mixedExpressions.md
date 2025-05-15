@@ -35,12 +35,12 @@ EX:
 	double average{0.0};
 
 	average = total_amount / total_number;	
-	s-t-d::cout << average;   //this will output 12. 
+	std::cout << average;   //this will output 12. 
 
 Here happened a demotion. Sometimes even the decimal part is very needed, so we can cast one of them into a double, giving us the right result.  
 
 	average = static_cast<double>(total_amount) / total_number;	  
-	s-t-d::cout << average;	//this will output 12.5  
+	std::cout << average;	//this will output 12.5  
 
 
 
