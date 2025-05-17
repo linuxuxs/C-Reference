@@ -8,7 +8,7 @@ This is a simple converter i made - it can convert numbers to binary up to 8 bit
 ---Anything above 255 wont work.
 
 The algorithm is simple: it checks if the number you want to convert to
-binary can be subtracted by each value from a vector of powers of two (0 to 128).
+binary can be subtracted by each value from a vector of powers of two (1 to 128).
 --If it can, it subtracts that value and pushes in the output vector a 1
 --If it cant, it pushes in the output vector a 0, and then moves to the next value.
 
