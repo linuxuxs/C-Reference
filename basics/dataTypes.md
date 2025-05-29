@@ -52,6 +52,18 @@ wchar_t - the biggest
 
 The character needs to be surrounded by single quotes. It DOESNT work with double quotes.  
 
+What is a char in c++?	
+ Well, characters in c++ (char) are actually a small integer type. It has 1 byte of memory, so you can easily store 256 different values.	
+
+* from -128 to 127 if its signed.		
+* from 0 to 255 if its unsigned.		
+
+So based on this information, you can store a number, and that number can correspond to a value from the ASCII table. For example, the integer 65 stored in a char, can result in the letter 'A', because the ASCII code for A is 65.	
+
+So basically, when you create a char that holds a letter or symbol, that actually stores the number that corresponds from the ASCII code.	
+
+So that is why you can store a character in an enumeration type!	
+
 ---
 
 * Global variables can be used *EVERYWHERE* in your program, its scope its global, meaning you can access it in any function or anywhere you might want to use it.  
