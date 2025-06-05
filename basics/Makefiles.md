@@ -85,3 +85,25 @@ clean:
 .PHONY: clean
 ```
 
+----------
+
+if you want to put the object files inside a folder (to keep it organised):
+
+You need to put folderName/objFiles.o  to any object file you will create. (1)
+
+The cpp files needs to depend on the folder (2)
+
+And also when you compile object codes, you need to put -o output/file.o (3)
+
+```
+//1
+main: output/main.o output/mystring.o
+	commands
+
+//			2 			
+output/main.o: main.cpp | output
+	g++ -c main.cpp -o output/main.o  //3
+
+
+```
+
