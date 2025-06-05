@@ -59,3 +59,15 @@ file2.o: file2.cpp
   
 ```
 
+.PHONY  
+------
+
+.PHONY tells make that a target is not a real file, but just a label for a command or action.
+
+```
+clean:
+	rm -f *.o main
+
+.PHONY: clean
+```
+
