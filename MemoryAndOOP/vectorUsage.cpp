@@ -56,7 +56,7 @@ int main () {
     /*when you want to push back elements, and you dont have the capacity to do so,
     the vector needs to expand, so it will grow in size by 50%.
     ex, if you have 2 elements, the vector will have 3 in size.
-    if you have 10, you will have 50 in size.
+    if you have 10, the vector will have 50 in size.
     So, just set the size first for the vector.
     You can do by either specifying the size in () -> std::vector <int> vector (5);
     Or, vector.reserve(5); - Reserving 5 space memory. The capacity.
