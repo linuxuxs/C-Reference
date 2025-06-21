@@ -1,6 +1,6 @@
 C++ ARRAYS	
 -----
-Arrays are compound data type or a data structure. Arrays are a collection of elements of the same type. The elements can be accessed by their index. C++ is a 0-indexed programming language, which means the index starts at 0.	
+Arrays are compound data type or a data structure. An array is a collection of elements of the same type. The elements can be accessed by their index. C++ is a 0-indexed programming language, which means the index starts at 0.	
 * Arrays have a fixed dimension		  
 * Arrays are stored continuously in memory
      
