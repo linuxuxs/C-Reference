@@ -3,7 +3,7 @@ How to use Makefiles
 
 Makefiles are used to tell the **make** tool how to build your program.
 
-On windows, you need to install **make**, but on linux and macOS are already installed by default.
+On windows, you need to install **make**, but on linux and macOS it is already installed by default.
 
 Make files **must** be indented using TABs.
 
