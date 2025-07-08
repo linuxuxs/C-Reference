@@ -7,7 +7,7 @@ int main(){
     int n, c, matrix[50][50];
 
     ifstream f;
-    f.open("../matriceDeAdiacenta.txt");
+    f.open("matriceDeAdiacenta.txt");
    
     f >> n;
 
