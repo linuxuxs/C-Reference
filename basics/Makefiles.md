@@ -38,12 +38,14 @@ quick example:
 ```
 main: myFile.o
   g++ myFile.o -o outputName
+  outputName.exe > someFile.txt
 
 myFile.o: myFile.cpp
   g++ -c myFile.cpp
 ```
 
 The -c flag tells the compiler to create an object code for it.
+outputName.exe > someFile.txt puts the output inside that file.
 Then, just run **make** in the terminal, and it will compile into the outputName.
 
 
